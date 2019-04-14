@@ -1,0 +1,18 @@
+{
+  "name": "Hermes",
+  "version": "1.0.0",
+  "description": "A web based application which takes advantage of SimpleWebRTC",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Nicholas Hebert",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.1",
+    "simplewebrtc": "^3.0.1",
+    "webrtc": "^1.14.1"
+  }
+}

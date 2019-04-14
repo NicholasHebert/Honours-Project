@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title> Hermes </title>
+    <!-- Site Properties -->
+    <title>Hermes - Login</title>
+    <link rel="stylesheet" href="scripts/semantic-ui-css/semantic.min.css">
+
+    <style>
+        body {
+            background-color: #404040;
+        }
+
+        .vertical-center {
+            margin: 0;
+            position: absolute;
+            top: 30%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="ui two column centered grid">
+        <div class="vertical-center">
+            <div class="column">
+                <center>
+                    <h1 class "ui header">Hermes</h1>
+                    <div class="ui form">
+                        <div class="fields">
+                            <div class="field">
+                                <label>User Name</label>
+                                <input type="text" placeholder="Enter user name" id="username" name="username">
+                            </div>
+                            <div class="field">
+                                <label>Room</label>
+                                <input type="text" placeholder="Enter room name" id="room" name="room">
+                            </div>
+                        </div>
+                        <br>
+                        <div class="ui buttons">
+                            <div id="join-btn" class="ui submit blue button">Join Room</div>
+                            <div id="create-btn" class="ui submit blue button">Create Room</div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/simplewebrtc/out/simplewebrtc-with-adapter.bundle.js"></script>
+    <script src="scripts/handlebars/dist/handlebars.min.js "></script>
+    <script src="scripts/jquery/dist/jquery.min.js"></script>
+    <script src="scripts/semantic-ui-css/semantic.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
